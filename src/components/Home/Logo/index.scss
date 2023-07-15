@@ -1,0 +1,39 @@
+.logo-container {
+  z-index: 0;
+  width: 500px;
+  height: 609px;
+  opacity: 1;
+  position: absolute;
+  top: 10%;
+  right: 20%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+  animation: zoomInDown 2.5s ease-in-out 1s;
+  user-select: none;
+}
+
+.svg-container {
+  stroke: #ffd700;
+  stroke-width: 10;
+}
+
+        @media screen and (max-width: 1024px) {
+          .logo-container {
+            width: 500px;
+            height: 600px;
+            top: 10%;
+            right: 0%;
+          }
+        }
+
+ @media screen and (max-width: 768px) {
+.logo-container {
+    width: 300px;
+    height: 400px;
+    top: 10%;
+    right: 0%;
+  }
+ }
+
+
