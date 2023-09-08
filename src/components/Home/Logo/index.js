@@ -10,7 +10,7 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      <DisplayLottie animationData={Coding} />
+      {/* <DisplayLottie animationData={Coding} /> */}
     </div>
   );
 };

@@ -23,10 +23,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMIAL_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_p8ypw7k",
+        "template_6txtwgr",
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY
+        "bJ0S8PIrUicLx0jcb"
       )
       .then(
         () => {
@@ -75,8 +75,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in opportunities - especially ambitious or large
-            projects. However, if you have other request or question, don't
+            I am interested in any opportunities, If my profile matches with your job requirements, don't
             hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
@@ -119,7 +118,7 @@ const Contact = () => {
 
         <div className="map-wrap">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3592.9186629430724!2d55.973028!3d25.773249999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDQ2JzIzLjciTiA1NcKwNTgnMjIuOSJF!5e0!3m2!1sen!2sae!4v1688637187894!5m2!1sen!2sae"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462561.6574537445!2d55.22748795!3d25.076022449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai!5e0!3m2!1sen!2sae!4v1694170878993!5m2!1sen!2sae"
             width="100%"
             height="100%"
             style={{ border: "0" }}

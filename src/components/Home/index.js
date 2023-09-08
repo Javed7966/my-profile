@@ -9,9 +9,10 @@ import "./index.scss";
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
 
-  const nameArray = "ardron".split("");
-  const jobArray = "A Passionate".split("");
-  const developerArray = "Developer".split("");
+  const nameArray = "Javed".split("");
+  const jobArray = "A Professional".split("");
+  const salesDistribution = "Sales".split("");
+  const specialist = "Distribution Specialist".split("");
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -31,7 +32,8 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={LogoTitle} alt="Zardron Angelo Pesquera" />
+            {/* <img src={LogoTitle} alt="Zardron Angelo Pesquera" /> */}
+            {" "}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -45,14 +47,19 @@ const Home = () => {
             />{" "}
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={developerArray}
+              strArray={salesDistribution}
+              idx={22}
+            />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={specialist}
               idx={22}
             />
             <br />
           </h1>
           <h2>
-            Software Engineer / ReactJS Developer / Web Developer / Full Stack
-            Developer
+            Sales / Event Supervisor
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

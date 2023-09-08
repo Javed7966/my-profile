@@ -8,11 +8,20 @@ import {
   faJsSquare,
   faReact,
   faPython,
+  faSalesforce,
 } from "@fortawesome/free-brands-svg-icons";
+
+import DJ from '../../assets/images/dj.png'
+import DM from '../../assets/images/direct-marketing.png'
+import SM from '../../assets/images/salesman.png'
+import SM2 from '../../assets/images/salesman2.png'
+import SM3 from '../../assets/images/salesman3.png'
+import SM4 from '../../assets/images/salesman4.png'
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./index.scss";
+import { faDollar, faIdCard, faMessage, faPerson, faPhone, faWallet } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   const aboutArray = "About Me".split("");
@@ -38,45 +47,30 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a Bachelor of Science in Information Technology Graduate at
-            University of Cebu Lapu-Lapu and Manduae (UCLM).
-          </p>
-          <p>
-            A very ambitious developer. I love to code because if I can think
-            it, I can make it a reality.
-          </p>
-          <p>
-            Also a competitive coder with an amazing ability to develop websites
-            that are both functional and aesthetically pleasing. I have a strong
-            understanding of web standards and best practices, and I am
-            passionate about creating websites that users will find easy to use
-            and visually appealing.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be an Coding
-            Lover, and tech-obsessed!!!
+          Sales Executive with over 10 years of professional experience in outdoor Sales (Projects and Retail). Seeking a responsible, challenging and innovative position, wherein my skills can be fully utilized for organization growth while providing the opportunity for learning new things and career growth.
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faPython} color="#4B8BBE" />
+            <img src={SM2} width={200} height={200} />
+
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            <img src={SM3} width={200} height={200} />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            <img src={SM4} width={200} height={200} />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            <img src={SM} width={200} height={200} />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            <img src={DM} width={200} height={200} />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <img src={DJ} width={200} height={200} />
             </div>
           </div>
         </div>

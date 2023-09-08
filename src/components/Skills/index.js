@@ -29,13 +29,11 @@ const Skills = () => {
             <br />
           </h1>
           <p>
-            I love to keep a variety of tools in my tech stack. I also make sure
-            to be pro at using one tool before moving on to the next. I keep
-            myself up to date with the latest technologies around.
+          As a Sales Specialist, I possess a diverse skill set tailored to drive revenue growth and exceed sales targets. With a proven track record of meeting sales target, and various sales techniques and strategies to achieve exceptional results. My ability to establish and maintain client relationships is a cornerstone of my success, by excellent communication and interpersonal skills. I excel in product knowledge, ensuring a comprehensive understanding of the offerings I represent, enabling me to articulate product features, benefits, and advantages convincingly to customers. 
           </p>
+
           <p>
-            Looking for a role in a company with the opportunity to work with
-            the latest technologies on challenging and diverse projects.
+          My strong negotiation skills, honed over years of experience, enable me to effectively close deals and secure favorable terms, while also adeptly handling objections and overcoming resistance. My proficiency in time management ensures that I can prioritize leads and opportunities, consistently meet deadlines, and manage a demanding sales schedule with efficiency and precision.
           </p>
         </div>
 
