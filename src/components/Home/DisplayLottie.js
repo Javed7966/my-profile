@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import Lottie from 'react-lottie';
+import Profile from '../../assets/images/image.png'
 
 const DisplayLottie = ({ animationData }) => {
 	const defaultOptions = {
@@ -12,7 +13,7 @@ const DisplayLottie = ({ animationData }) => {
 		<Suspense>
 			{/* To override default onClick pause by Lottie */}
 			<div onClick={() => null}>
-				<Lottie options={defaultOptions} />
+				<img src={Profile} width={200} height={400} style={{marginLeft: "50%", marginTop: "10%"}}/>
 			</div>
 		</Suspense>
 	);
